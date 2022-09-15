@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main-container">
+
+            <div class="box-right">                 
+                <textarea class="text-result" cols="24" rows="15" readonly></textarea>
+
+                <img src="imagenes/picture.png" alt="Dibujo diamante" class="sketch hide">
+
+                <h2 class="hide1">Ningún mensaje fue encontrado</h2>
+
+                <h3 class="hide2">Ingrese el texto que desee encriptar o desencriptar</h3>
+                    
+                <button class="copy-btn" onclick="copiar()">Copiar Texto</button>     
+            </div>
+       
+            <div class="logo-box">
+                <img src="imagenes/logo.png" alt="Logo Alura" class="logo">
+                <h1>Encriptador de Texto</h1>
+            </div>   
+            
+            <div class="box-text">
+                <textarea class="message" cols="40" rows="14" placeholder="Ingrese el texto aquí" autofocus></textarea>
+            </div>
+                
+            <div class="box-notice">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="buttons-box">
+                <button class="code-btn" onclick="encriptar()">Encriptar</button>
+                <button class="uncode-btn" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            
+            <div class="footer">
+                <p>Creado por Johana Garcia Ramos</p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

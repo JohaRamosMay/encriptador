@@ -1,0 +1,426 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background: #9bd3ae;
+}
+
+.main-container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+
+    background: #9bd3ae;
+}
+
+
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 45px;
+
+    width: 70%;
+    height: 10%;
+
+    background: #9bd3ae;
+}
+
+.logo{
+    width: 36.09px;
+    height: 80%;
+    margin-left: 5px;
+}
+
+.logo-box h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #222e3d;
+    margin: 0;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    float: right;
+
+    width: 30%;
+    height: 85%;
+
+    background: #d7f3e0;
+
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    transition: all 200ms;
+}
+
+.text-result{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+    visibility: hidden;
+
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: #d7f3e0;
+}
+
+.sketch{
+    width: 90%;
+}
+
+.box-right h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #495057;
+}
+
+.box-right h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #495057;
+}
+
+.copy-btn{
+    width: 208px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+
+    transition: all 200ms;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.copy-btn:hover{
+    background-color: #acd1b7;
+    font-size: 17px;
+}
+
+
+.box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 65%;
+
+    background: #9bd3ae;
+}
+
+.message{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #0A3871;
+
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: #9bd3ae;
+}
+
+.box-notice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 70%;
+    height: 5%;
+
+    background: #9bd3ae;
+}
+
+.box-notice p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.buttons-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 70%;
+    height: 10%;
+
+    background: #9bd3ae;
+}
+
+.code-btn{
+    width: 268px;
+    height: 67px;
+    border: none;
+    border-radius: 24px;
+    background-color: #0A3871;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.code-btn:hover{
+    background-color: #082c58;
+    font-size: 17px;
+}
+
+.uncode-btn{
+    width: 268px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #d7f3e0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.uncode-btn:hover{
+    background-color: #cbe0d2;
+    font-size: 17px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+    height: 9%;
+
+    background: #9bd3ae;
+}
+
+.footer p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222e3d;
+}
+
+#linkedin-logo{
+    font-size: 30px;
+    color: #0077B5;
+}
+
+#github-logo{
+    font-size: 30px;
+    color: #333333;
+}
+
+.oracle-logo{
+    width: 4%;
+    margin-left: 30px;
+}
+
+.alura-logo{
+    width: 2%;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container{      
+        width: 768px;
+        height: 1174px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo-box{
+        order: 1;
+        width: 100%;
+        height: 140px;
+    }
+
+    .logo{
+        margin-left: 24px;
+        width: 31.09px;
+        height: 46.37px;
+    }
+
+    .box-text{
+        width: 80%;
+        height: 400px;
+        order: 2;
+    }
+
+    .message{
+        width: 85%;
+        height: 400px;
+    }
+
+    .box-notice{
+        order: 3;
+        width: 100%;
+        height: 30px;
+        gap: 8px;
+    }
+
+    .buttons-box{
+        order: 4;
+        width: 100%;
+        height: 80px;
+    }
+
+    .box-right{
+        order: 5;
+        width: 80%;
+        height: 260px;
+        margin: 24px 0;
+
+    }
+
+    .sketch{
+        display: none;
+    }
+
+    .text-result{
+        width: 80%;
+        height: 30%
+    }
+
+    .footer{
+        order: 6;
+        height: 50px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container{      
+        width: 375px;
+        height: 933px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo-box{
+        gap: 14px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .logo-box h1{
+        font-size: 26px;
+    }
+
+    .box-text{
+        width: 100%;
+        height: 380px;
+    }
+
+    .message{
+        height: 380px;
+    }
+
+    .box-notice{
+        height: 20px;
+    }
+
+    .buttons-box{
+        height: 75px;
+    }
+
+    .box-right{
+        width: 96%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .hide1, .hide2{
+        margin: 0;
+    }
+
+    .footer{
+        gap: 6px;
+    }
+
+    .footer p{
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .oracle-logo{
+        width: 10%;
+        margin: 0 0 0 8px;
+    }
+    
+    .alura-logo{
+        width: 6%;
+        margin: 0 0 0 8px;
+    }
+}
